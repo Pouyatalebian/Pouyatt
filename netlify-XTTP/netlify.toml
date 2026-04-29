@@ -1,1 +1,8 @@
+[build]
+  command = ""
+  publish = "."
+  edge_functions = "services"   
 
+[[edge_functions]]
+  path = "/*"
+  function = "gateway"
